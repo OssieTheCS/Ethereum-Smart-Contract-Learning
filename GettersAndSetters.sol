@@ -5,9 +5,9 @@ pragma solidity ^0.4.0;
 */
 contract GettersAndSetters {
     uint age = 24;
-	string name = "Osman";
-
-	function getAge() public view returns (uint) {
+    string name = "Osman";
+    
+    function getAge() public view returns (uint) {
         return age;
     }
     
