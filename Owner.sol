@@ -1,6 +1,6 @@
 pragma solidity ^0.4.24;
 
-contract someContract {
+contract SomeContract {
     address owner = msg.sender;
     
     modifier onlyOwner() {
